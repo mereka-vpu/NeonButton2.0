@@ -1,0 +1,92 @@
+/*
+ * Copyright (C) 2025 Arkan Ataya
+ *
+ * This file is licensed under the GNU General Public License,
+ * version 2 or (at your option) any later version.
+ *
+ * SPDX-License-Identifier: GPL-2.0-or-later
+ */
+
+
+ /*UHH, My Codes Fucked Since 2020*/
+ 
+ /* Some people will hate this code :/ */
+
+ /* Previously unpublished / no explicit license.
+ * Now licensed under GPL-2.0-or-later.
+ */
+
+code {
+  font-family: Consolas,"courier new";
+  color: crimson;
+  background-color: #f1f1f1;
+  padding: 2px;
+  font-size: 105%;
+}
+
+ .play{
+ 	background: green;
+ 	color: white;
+ }
+
+ button{
+ 	border: 1px solid grey;
+    height: 50px;
+ 	background: white;
+ 	color: black;
+ 	border-radius: 50px;
+ 	cursor: pointer;
+ }
+
+ button:disabled{
+ 	border: 1px solid grey;
+    height: 50px;
+ 	background: grey;
+ 	color: white;
+ 	border-radius: 50px;
+ 	cursor: not-allowed;
+ }
+
+input{
+ 	border: 1px solid grey;
+    height: 50px;
+ 	background: white;
+ 	color: black;
+ 	border-radius: 50px;
+ }
+
+input::placeholder {
+ 	border: 1px solid grey;
+    height: 50px;
+ 	background: white;
+ 	color: green;
+ 	border-radius: 50px;
+ }
+
+button:hover{
+	background: black;
+	color: white;
+}
+
+.play:hover{
+	background: lightgreen;
+	color: white;
+}
+
+.button-option{
+    height:100px;
+    width: 100px;
+}
+
+.block{
+    display: block;
+}
+.opacity0{
+    opacity: 0;
+}
+.opacity50{
+    opacity: 0.5;
+}
+.opacity75{
+    opacity: 0.75;
+}
